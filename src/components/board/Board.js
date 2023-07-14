@@ -1,9 +1,9 @@
 import Square from '../square/Square'
-
 const Board = ({ squares, onClick, jumpTo }) => {
-  const renderSquare = (i) => {
+    const renderSquare = (i) => {
     return <Square value={squares[i]} onClick={() => onClick(i)} />
   }
+  
   return (
     <section className="game-section">
       <section className="game-board">

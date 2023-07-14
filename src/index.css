@@ -127,7 +127,15 @@ h1 {
   gap: 1px;
   align-items: center;
 }
+.restart:hover {
+  transform: translatey(-5px);
+  background-color: #342bd7;
+  border: 2px solid black;
+  font-size: 25px;
+}
+
 .restart {
+  
   background-color: transparent;
   padding: 0.5rem 4rem;
   cursor: pointer;
@@ -192,6 +200,10 @@ h1 {
 
 .player-o {
   margin-left: 24rem;
+}
+
+.myElement {
+  background-color: #58D68D;
 }
 
 .player-x,
